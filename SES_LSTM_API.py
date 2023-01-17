@@ -431,6 +431,36 @@ valScore = fiveFold_CVal(100)
 
 print("FiveFold Cross Validation: "+str(valScore))
 
+# --------------------------------------------------------------------------- #
+
+# Flask Connection
+
+# app = Flask(__name__)
+# api = Api(app)
+
+# @app.route('/predict', methods=['POST'])
+# def predict():
+#     request_data = request.get_json()
+
+#     test_data = [request_data['kurtosisx'],request_data['kurtosisy'],request_data['kurtosisz'],request_data['kurtosisf'],request_data['abs_kurtosisx'],request_data['abs_kurtosisy'],request_data['abs_kurtosisz'],request_data['abs_kurtosisf'],request_data['minx'],request_data['miny'],request_data['minz'],request_data['minf'],request_data['abs_minx'],request_data['abs_miny'],request_data['abs_minz'],request_data['abs_minf'],request_data['maxx'],request_data['maxy'],request_data['maxz'],request_data['maxf'],request_data['abs_maxx'],request_data['abs_maxy'],request_data['abs_maxz'],request_data['abs_maxf'],request_data['meanx'],request_data['meany'],request_data['meanz'],request_data['meanf'],request_data['abs_meanx'],request_data['abs_meany'],request_data['abs_meanz'],request_data['abs_meanf'],request_data['medianx'],request_data['mediany'],request_data['medianz'],request_data['medianf']]
+
+#     #test_data = [3.496975571,5.23133881,2.969923024,1.403945156,2.586841992,3.263263203,3.875656459,1.427367267,-0.00310496,-0.008150457,-0.004602477,-0.008577343,-0.001675536,-0.005400046,-0.005581164,-0.003245549,0.993325865,0.991415445,0.996473748,0.998845225,0.996452155,0.995826012,0.994582555,0.995877992,0.679476704,0.227064595,0.321708889,0.436399674,0.683794901,0.228052776,0.326327732,0.439317916,0.697691169,0.190961651,0.31343034,0.423416975]
+#     test_data2 = np.array(test_data)
+#     test_data3 = test_data2.reshape(1, 1, 36)
+#     # Change 'Nmodel' to used model name
+#     resultnewTest = Nmodel.predict(test_data3, verbose=0)[0]
+#     for index1 in range(1):
+#         i = np.where(resultnewTest[index1] == resultnewTest[index1].max())
+#         hin = i[0]
+#         for index2 in range(6):
+#             if(index2==hin):
+#                 resultnewTest[index1][index2]=1
+#             else:
+#                 resultnewTest[index1][index2]=0
+#     return {"t1": str(resultnewTest[0][0]), "t2": str(resultnewTest[0][1]), "t3": str(resultnewTest[0][2]), "t4": str(resultnewTest[0][3]), "t5": str(resultnewTest[0][4]), "t6": str(resultnewTest[0][5])}, 200
+
+# if __name__ == "__main__":
+#     app.run()
 
 
 
