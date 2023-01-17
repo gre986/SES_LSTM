@@ -18,4 +18,4 @@ Modified LSTM for Smart Eyedrop System Project
 > 'combineROC' and 'LSTMReport' are visualization functions. Comment them out if you want the model by itself.
 
 ## Connection via Flask
-- By default, code is independent of rest of SES. To reconnect, uncomment 'Flask Connection' code block to reconnect
+- By default, code is independent of rest of SES. To reconnect, uncomment 'Flask Connection' code block.
