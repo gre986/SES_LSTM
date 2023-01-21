@@ -3,13 +3,15 @@ Modified LSTM for Smart Eyedrop System Project
 
 ## Platform
 - Code had been compiled using Spyder via Anaconda platform. 
-- For terminal, use the following command to install necessary packages:
+- In anaconda prompt, use the following command to install necessary packages:
+- conda install pip(first install pip)
 	- pip install keras 
 	- pip install tensorflow
 	- pip install sklearn
 	- pip install matplotlib
 	- pip install pandas
 	- pip install flask
+	- pip install flask_restful
            
 ## Models
 - Neutral Model: Trained on 100 entries, Tested on 100 entries
