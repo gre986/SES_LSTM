@@ -4,7 +4,6 @@ Modified LSTM for Smart Eyedrop System Project
 ## Platform
 - Code had been compiled using Spyder via Anaconda platform. 
 - In anaconda prompt, use the following command to install necessary packages:
-- conda install pip(first install pip)
 	- pip install keras 
 	- pip install tensorflow
 	- pip install sklearn
